@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/info"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/main_activity_info"
+        android:textColor="@android:color/black"
+        android:textSize="16sp"
+        android:textStyle="normal"/>
+
+    <ListView
+        android:id="@+id/imagesList"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/list_view_margin_top"
+        android:divider="@color/dark_green"
+        android:dividerHeight="1dp"
+        android:scrollbarStyle="outsideInset"
+        android:smoothScrollbar="true"
+        android:scrollingCache="false"
+        android:animationCache="false" />
+
+</LinearLayout>

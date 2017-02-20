@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory android:title="@string/preference_category_application" >
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="logging"
+            android:summary="@string/preference_logging_summary"
+            android:title="@string/preference_logging_title" />
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/preference_category_build_info" >
+        <Preference
+            android:key="build_version"
+            android:title="@string/preference_build_version" />
+        <Preference
+            android:key="build_package"
+            android:title="@string/preference_build_package" />
+        <Preference
+            android:key="build_time"
+            android:title="@string/preference_build_date" />
+        <Preference
+            android:key="build_signature"
+            android:title="@string/preference_build_signature" />
+
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/preference_category_device_info">
+    <Preference
+        android:key="device_manufacturer"
+        android:title="@string/preference_device_manufacturer" />
+    <Preference
+        android:key="device_model"
+        android:title="@string/preference_device_model" />
+    <Preference
+        android:key="screen_resolution"
+        android:title="@string/preference_screen_resolution" />
+    <Preference
+        android:key="screen_density"
+        android:title="@string/preference_screen_info" />
+    <Preference
+        android:key="android_os_version"
+        android:title="@string/preference_android_os" />
+    </PreferenceCategory>
+</PreferenceScreen>

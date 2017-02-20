@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="list_item_padding">5dp</dimen>
+    <dimen name="list_item_imageview_width">65dp</dimen>
+    <dimen name="list_item_imageview_height">65dp</dimen>
+    <dimen name="list_item_container_marginLeft">15dp</dimen>
+    <dimen name="list_view_margin_top">10dp</dimen>
+    <dimen name="detail_view_title_margin_bottom">10dp</dimen>
+    <dimen name="detail_view_title_textSize">16sp</dimen>
+</resources>

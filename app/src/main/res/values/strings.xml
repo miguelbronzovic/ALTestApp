@@ -1,0 +1,27 @@
+<resources>
+    <!-- Application -->
+    <string name="app_name">AngiesList App</string>
+    <string name="main_activity_title">Angie\'s List</string>
+    <string name="settings_activity_title">Settings</string>
+    <string name="detail_activity_title">Image Detail</string>
+
+    <string name="main_activity_info">Images</string>
+
+    <!-- Settings / Preferences -->
+    <string name="preference_category_application">Application</string>
+    <string name="preference_category_device_info">Device Info</string>
+    <string name="preference_category_build_info">Build Info</string>
+    <string name="preference_logging_title">Logging</string>
+    <string name="preference_logging_summary">Write debug messages to the log.\nDefault value: false</string>
+    <string name="preference_device_manufacturer">Device Manufacturer</string>
+    <string name="preference_device_model">Device Model</string>
+    <string name="preference_build_version">Build Version</string>
+    <string name="preference_build_date">Build Date</string>
+    <string name="preference_build_type">Build Type</string>
+    <string name="preference_build_package">Build Package</string>
+    <string name="preference_build_signature">Build Signature</string>
+    <string name="preference_screen_resolution">Screen Resolution</string>
+    <string name="preference_screen_info">Screen Density</string>
+    <string name="preference_android_os">Android Version</string>
+
+</resources>
